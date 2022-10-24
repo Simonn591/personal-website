@@ -1,0 +1,89 @@
+.links-all {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    display: flex;
+}
+
+.links-container {
+    width: 1100px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-top: 6rem;
+}
+
+.links-mail-dark {
+    height: 30px;
+    margin: 0 3rem 0 3rem;
+    cursor: pointer;
+    display: var(--hide-moon);
+}
+
+.links-mail-light {
+    height: 30px;
+    margin: 0 3rem 0 3rem;
+    cursor: pointer;
+    display: var(--hide-sun);
+}
+
+.links-mail :hover {
+    filter: var(--pic-filter);
+    transition: 300ms;
+}
+
+.links-linkedin-dark {
+    height: 30px;
+    margin: 0 3rem 0 3rem;
+    cursor: pointer;
+    display: var(--hide-moon);
+}
+
+.links-linkedin-light {
+    height: 30px;
+    margin: 0 3rem 0 3rem;
+    cursor: pointer;
+    display: var(--hide-sun);
+}
+
+.links-linkedin :hover {
+    filter: var(--pic-filter);
+    transition: 300ms;
+}
+
+
+.links-git-dark {
+    height: 30px;
+    margin: 0 3rem 0 3rem;
+    cursor: pointer;
+    display: var(--hide-moon);
+}
+
+.links-git-light {
+    height: 30px;
+    margin: 0 3rem 0 3rem;
+    cursor: pointer;
+    display: var(--hide-sun);
+}
+
+.links-git :hover {
+    filter: var(--pic-filter);
+    transition: 300ms;
+}
+
+@media screen and (max-width: 1080px) {
+
+    .links-container {
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .links-container {
+        overflow: hidden;
+    }
+    
+}

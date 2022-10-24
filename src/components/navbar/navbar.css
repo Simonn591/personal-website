@@ -1,0 +1,188 @@
+.navbar-all {
+    font-family: var(--font-family);
+    background: var(--gradient-navbar);
+    display: flex;
+}
+
+.navbar-container {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.navbar-title h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--font-color);
+    text-shadow: var(--text-shadow-h1);
+    animation: var(--animation);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-right a {
+    margin-left: 2rem;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-light);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-right a:hover {
+    margin-left: 2rem;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-shadow: var(--text-shadow-h1);
+    animation: var(--animation);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-menu {
+    margin-left: auto;
+    display: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-menu-close {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-light);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-menu-close:hover {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-h1);
+    animation: var(--animation);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-menu-lines {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-h1);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-menu-lines:hover {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-h1);
+    animation: var(--animation);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-darkmode {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    text-shadow: var(--text-shadow-yellow);
+    cursor: pointer;
+    margin-left: 2rem;
+    transition: 1s;
+}
+
+.navbar-darkmode:hover {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    text-shadow: var(--text-shadow-yellow-hover);
+    cursor: pointer;
+    margin-left: 2rem;
+    transition: 1s;
+}
+
+.navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    position: absolute;
+    right: 0;
+    min-width: 210px;
+    margin-bottom: 1rem;
+}
+
+.navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.navbar-menu_container a {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-light);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-menu_container a:hover {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow-h1);
+    animation: var(--animation);
+    transition: var(--transition);
+    transition-delay: var(--transition-delay);
+}
+
+.navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+@keyframes animate {
+    40%{opacity: 1;
+    }
+    42%{opacity: 0.8;
+    }
+    43%{opacity: 1;
+    }
+    45%{opacity: 0.3;
+    }
+    46%{opacity: 1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .navbar-right {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: block;
+        align-items: center;
+    }
+}
+

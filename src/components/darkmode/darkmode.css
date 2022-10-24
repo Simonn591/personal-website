@@ -1,0 +1,79 @@
+[data-theme='light'] {
+    --background-color: #eee;
+    --font-color: #333;
+    --font-family: 'Rubik', sans-serif;
+    --gradient-navbar: linear-gradient(0deg, #eee 0%, #ddd 100%);
+
+    --text-shadow-h1: none;
+    --text-shadow-light: none;
+    --animation: none;
+
+    --text-shadow-yellow: none;
+    --text-shadow-yellow-hover: none;
+
+    --hide-moon: none;
+
+    --transition-delay: 700ms;
+
+    --transition: 0s;
+
+    --pic-shadow: none;
+    --pic-filter: brightness(80%);
+}
+
+[data-theme='dark'] {
+    color-scheme: dark;
+
+    --background-color: #0b0b0b;
+    --font-color: #ffd9e2;
+    --font-family: 'Rubik', sans-serif;
+    --gradient-navbar: linear-gradient(0deg, rgba(11, 11, 11, 1) 0%, rgba(22, 26, 65, 1) 100%);
+
+    --text-shadow-h1:0 0 0 transparent,
+                     0 0 10px #ff003c,
+                     0 0 20px rgba(255, 0, 60, 0.5),
+                     0 0 40px #ff003c,
+                     0 0 100px #ff003c,
+                     0 0 200px #ff003c,
+                     0 0 300px #ff003c,
+                     0 0 500px #ff003c,
+                     0 0 1000px #ff003c;
+    --text-shadow-light:0 0 0 transparent,
+                        0 0 10px #ff003c,
+                        0 0 20px rgba(255, 0, 60, 0.5),
+                        0 0 40px #ff003c;
+    --animation: animate 3s infinite alternate;
+
+    --text-shadow-yellow:   0 0 0 transparent,
+                            0 0 10px #D3BE70;
+    --text-shadow-yellow-hover: 0 0 0 transparent,
+                                0 0 10px #D3BE70,
+                                0 0 20px #D3BE70,
+                                0 0 40px #D3BE70,
+                                0 0 100px #D3BE70;
+
+    --hide-sun: none;
+
+    --transition-delay: 0s;
+    --transition: 1s;
+
+    --pic-shadow:   0 0 0 transparent,
+                    0 0 10px rgba(22, 26, 65, 1),
+                    0 0 20px rgba(22, 26, 65, 1);
+    --pic-shadow-hover: 0 0 0 transparent,
+                        0 0 10px rgba(22, 26, 65, 1),
+                        0 0 20px rgba(22, 26, 65, 1),
+                        0 0 40px rgba(22, 26, 65, 1),
+                        0 0 100px rgba(22, 26, 65, 1);
+
+    --pic-filter: brightness(105%);
+}
+
+.darkmode-moon {
+    display: var(--hide-moon);
+    transition: 500ms;
+}
+
+.darkmode-sun {
+    display: var(--hide-sun);
+}
