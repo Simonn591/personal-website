@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.a7fc2560.css",
+    "main.js": "/personal-website/static/js/main.4bebf07d.js",
+    "static/media/Profile-pic.png": "/personal-website/static/media/Profile-pic.7da3f8c2f36b52cfaaed.png",
+    "static/media/project3.png": "/personal-website/static/media/project3.a3cdf00176ec8475d26b.png",
+    "static/media/project1.png": "/personal-website/static/media/project1.a7daf33ad6721dd2faf3.png",
+    "static/media/project2.png": "/personal-website/static/media/project2.7b0b3ea2e1de8ab8dbf4.png",
+    "static/media/linkedin-dark.png": "/personal-website/static/media/linkedin-dark.90a2d298fdefc1318f10.png",
+    "static/media/linkedin-light.png": "/personal-website/static/media/linkedin-light.da9858b593a6546d1566.png",
+    "static/media/git-light.png": "/personal-website/static/media/git-light.9f63bc1917a57c873d4d.png",
+    "static/media/git-dark.png": "/personal-website/static/media/git-dark.fe78d666baa900dd8bad.png",
+    "static/media/mail-light.png": "/personal-website/static/media/mail-light.ef2f2eeb48d420780434.png",
+    "index.html": "/personal-website/index.html",
+    "main.a7fc2560.css.map": "/personal-website/static/css/main.a7fc2560.css.map",
+    "main.4bebf07d.js.map": "/personal-website/static/js/main.4bebf07d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7fc2560.css",
+    "static/js/main.4bebf07d.js"
+  ]
+}
