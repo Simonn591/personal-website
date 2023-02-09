@@ -11,7 +11,7 @@ const Skills = () => {
       </div>
       <div className='skills-skills'>
         <div className='skills-skills-1'>
-        HTML, CSS, JavaScript, React, TailwindCSS, SCSS, Oracle SQL
+        HTML, CSS, JavaScript, React, TailwindCSS, Bootstrap, SCSS, Oracle SQL
         </div>
         <div className='skills-skills-2'>
         Figma, Adobe Photoshop, Gimp, Adobe Illustrator, Blender

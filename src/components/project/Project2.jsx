@@ -15,10 +15,10 @@ const Project2 = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>UX design of web app</p>
+            <p>Social network for musicians</p>
           </span>
           <span className='project-desc'>
-            <p>My bachelor thesis. A UX design of a social network specialized for organizing concerts.</p>
+            <p>My bachelor thesis. A user interface specification of a web app specialized for organizing concerts.</p>
           </span>
           <span className='project-tools'>
             <p>Autodesk Sketchbook Express, MockFlow, Gimp</p>

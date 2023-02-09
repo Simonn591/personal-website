@@ -15,7 +15,7 @@ const Footer = () => {
             <div className='footer-menu'>
                 <Menu />
             </div>
-            <h3>Built with React<br></br>© 2022</h3>
+            <h3>Built with React<br></br>© 2022-2023</h3>
         </div>
     </div>
     )

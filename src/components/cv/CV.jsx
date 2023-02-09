@@ -16,6 +16,17 @@ const CV = () => {
         </div>
         <section className='cv-timeline'>
           <div className='cv-position'>
+            <h3>Front-end web developer & UX designer</h3>
+            <h4>Sborio.cz</h4>
+            <h5>2022 - present</h5>
+            <p>Front-end web development of information system.</p>
+            <p></p>
+            <p>UX and UI design of new functionalities.</p>
+            <div className='cv-languages'>         
+              <p>Figma, Bootstrap, CSS, Python</p>
+            </div>
+          </div>
+          <div className='cv-position'>
             <h3>IT analyst</h3>
             <h4>Česká spořitelna a.s.</h4>
             <h5>2018 - 2022</h5>
