@@ -1,7 +1,6 @@
 import React from 'react';
 import './project.css';
-
-import img4 from '../../assets/project4.png'
+import img4 from '../../assets/project4.png';
 
 const Project4 = () => {
 
