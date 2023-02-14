@@ -8,7 +8,7 @@ const Skills = () => {
     <div className='skills-all' id='skills'>
     <div className='skills-container'>
       <div className='skills-title'>
-        <h1>{ t('skills') }</h1>
+        <h1>Dovednosti</h1>
       </div>
       <div className='skills-skills'>
         <div className='skills-skills-1'>

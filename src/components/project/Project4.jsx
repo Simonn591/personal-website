@@ -17,10 +17,10 @@ const Project4 = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>{ t('project4title') }</p>
+            <p>Sborio.cz</p>
           </span>
           <span className='project-desc'>
-            <p>{ t('project4desc') }</p>
+            <p>Některé úpravy a nové funkce front-endu pro projekt, kterého se účastním.</p>
           </span>
           <span className='project-tools'>
             <p>Figma, Bootstrap, CSS</p>

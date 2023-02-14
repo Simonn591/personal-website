@@ -14,10 +14,10 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='footer-menu'>
             <>
-            <p><a href = '#navbar'>{ t('footer') } &#8593;</a></p>
+            <p><a href = '#navbar'>Nahoru &#8593;</a></p>
             </>
             </div>
-            <h3>{ t('footer2') }<br></br>© 2022-2023</h3>
+            <h3>Vytvořeno s React<br></br>© 2022-2023</h3>
         </div>
     </div>
     )

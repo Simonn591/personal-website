@@ -1,4 +1,8 @@
-.language-cz {
+.container {
+    display: none;
+}
+
+/*.language-cz {
     margin-left: 2rem;
     margin-right: 1rem;
     text-shadow: var(--text-shadow-purple);
@@ -33,4 +37,4 @@
     .language-en {
         margin-left: 2rem;
     }
-}
+}*/

@@ -17,10 +17,10 @@ const Project2 = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>{ t('project2title') }</p>
+            <p>Sociální síť pro muzikanty</p>
           </span>
           <span className='project-desc'>
-            <p>{ t('project2desc') }</p>
+            <p>Moje bakalářská práce. UI specifikace webové aplikace zaměřené na pořádání koncertů.</p>
           </span>
           <span className='project-tools'>
             <p>Autodesk Sketchbook Express, MockFlow, Gimp</p>

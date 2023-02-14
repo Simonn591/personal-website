@@ -19,10 +19,10 @@ const Project = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>{ t('projecttitle') }</p>
+            <p>Stránky kapely</p>
           </span>
           <span className='project-desc'>
-            <p>{ t('projectdesc') }</p>
+            <p>Vícestránková React aplikace.</p>
           </span>
           <span className='project-tools'>
             <p>React, SCSS</p>

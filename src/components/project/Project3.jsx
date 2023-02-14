@@ -17,10 +17,10 @@ const Project3 = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>{ t('project3title') }</p>
+            <p>3D portfolio</p>
           </span>
           <span className='project-desc'>
-            <p>{ t('project3desc') }</p>
+            <p>Také mě zajímá 3D grafika.</p>
           </span>
           <span className='project-tools'>
             <p>Blender</p>

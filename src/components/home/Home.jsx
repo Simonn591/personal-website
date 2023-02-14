@@ -16,8 +16,8 @@ const Home = () => {
           <img src= { profile_pic } alt='profile-pic'/>
         </div>
         <div className='home-text'>
-          <h1>{ t('home1') }<span className='home-hand wave'>👋</span> { t('home2') } <span className='home-name'>Šimon Marchal.</span></h1>
-          <h3>{ t('home3') }</h3>
+          <h1>Dobrý den,<span className='home-hand wave'>👋</span> jmenuji se <span className='home-name'>Šimon Marchal.</span></h1>
+          <h3>Jsem junior front-end web developer se čtyřletou praxí v testingu a datové analýze.</h3>
         </div>
 
       </div>

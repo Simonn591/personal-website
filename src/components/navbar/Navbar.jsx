@@ -34,10 +34,10 @@ const Navbar = () => {
             <div className='navbar-menu_container swing-in-top-fwd'>
               <div className='navbar-menu_container-links'>
               <>
-                <p><a href = '#contact'>{ t('contact') }</a></p>
-                <p><a href = '#skills'>{ t('skills') }</a></p>
-                <p><a href = '#projects'>{ t('projects') }</a></p>
-                <p><a href = '#cv'>{ t('cv') }</a></p>
+                <p><a href = '#contact'>Kontakt</a></p>
+                <p><a href = '#skills'>Dovednosti</a></p>
+                <p><a href = '#projects'>Projekty</a></p>
+                <p><a href = '#cv'>CV</a></p>
               </>
               </div>
             </div>

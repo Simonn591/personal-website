@@ -15,10 +15,10 @@ const Projects = () => {
     <div className='projects-all' id='projects'>
       <div className='projects-container'>
         <div className='projects-title'>
-          <h1>{ t('projects') }</h1>
+          <h1>Projekty</h1>
       </div>
       <div className='projects-title-2'>
-        <h3>{ t('projects1') }</h3>
+        <h3>Vývoj webu</h3>
       </div>
       <div className='projects-project'>
         <Project4 />
@@ -31,7 +31,7 @@ const Projects = () => {
         <Project2 />
       </div>
       <div className='projects-title-2'>
-        <h3>{ t('projects2') }</h3>        
+        <h3>Ostatní</h3>        
       </div>
       <div className='projects-project'>
         <Project3 />

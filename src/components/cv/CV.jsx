@@ -15,27 +15,27 @@ const CV = () => {
       <div className='cv-grid'>
       <div className='cv-experience'>
         <div  className='cv-title-2'>
-          <h3>{ t('cv1') }</h3>
+          <h3>Praxe</h3>
         </div>
         <section className='cv-timeline'>
           <div className='cv-position'>
             <h3>Front-end web developer & UX designer</h3>
             <h4>Sborio.cz</h4>
-            <h5>{ t('cv3') }</h5>
-            <p>{ t('cv4') }</p>
+            <h5>2022 - dosud</h5>
+            <p>Vývoj front-endu webového informačního systému.</p>
             <p></p>
-            <p>{ t('cv5') }</p>
+            <p>UX a UI design nových funkčností.</p>
             <div className='cv-languages'>         
               <p>Figma, Bootstrap, CSS, Python</p>
             </div>
           </div>
           <div className='cv-position'>
-            <h3>{ t('cv6') }</h3>
+            <h3>IT analytik</h3>
             <h4>Česká spořitelna a.s.</h4>
             <h5>2018 - 2022</h5>
-            <p>{ t('cv7') }</p>
-            <p>{ t('cv8') }</p>
-            <p>{ t('cv9') }</p>
+            <p>Zajištění podpory uživatelů aplikací Tallyman a PowerCurve Collections v rámci banky.</p>
+            <p>Manuální testování (evidence a tvorba scénářů v HP ALM a Xray).</p>
+            <p>Analýza a implementace funkčních požadavků dle business zadání.</p>
             <div className='cv-languages'>         
               <p>Oracle SQL, Shell scripting</p>
             </div>
@@ -53,23 +53,23 @@ const CV = () => {
       </div>
       <div className='cv-education'>
       <div className='cv-title-2'>
-        <h3>{ t('cv2') }</h3>
+        <h3>Vzdělání</h3>
       </div>  
       <section className='cv-timeline'>
           <div className='cv-position'>
-            <h3>{ t('cv12') }</h3>
+            <h3>Česká zemědělská univerzita v Praze</h3>
             <h5>2014 - 2018</h5>
-            <p>{ t('cv13') }</p>
+            <p>Informatika (Bc.)</p>
           </div>
           <div className='cv-position'>
             <h3>Unicorn College</h3>
-            <h5>{ t('cv14') }</h5>
-            <p>{ t('cv15') }</p>
+            <h5>2012 - 2013 (nedokončeno)</h5>
+            <p>Informatika</p>
           </div>
           <div className='cv-position'>
             <h3>SOŠ civilního letectví</h3>
             <h5>2007 - 2011</h5>
-            <p>{ t('cv16') }</p>
+            <p>Letecký mechanik - elektronik</p>
           </div>
           </section>
       </div>
