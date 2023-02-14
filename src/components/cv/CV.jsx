@@ -41,10 +41,10 @@ const CV = () => {
             </div>
           </div>
           <div className='cv-position'>
-            <h3>{ t('cv10') }</h3>
+            <h3>IT podpora</h3>
             <h4>Česká spořitelna a.s.</h4>
             <h5> 2018 - 2018</h5>
-            <p>{ t('cv11') }</p>
+            <p>Podpora při vývoji a údržbě bankovního serveru.</p>
             <div className='cv-languages'>
               <p>T-SQL</p>
             </div>
