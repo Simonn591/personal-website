@@ -84,7 +84,7 @@
     font-weight: 600;
     color: var(--font-color);
     text-decoration: none;
-    text-shadow: var(--text-shadow-h1);
+    text-shadow: var(--text-shadow-light);
     transition: var(--transition);
     transition-delay: var(--transition-delay);
 }
@@ -106,7 +106,7 @@
     font-size: 22px;
     text-shadow: var(--text-shadow-yellow);
     cursor: pointer;
-    margin-left: 2rem;
+    margin-left: 1rem;
     transition: 1s;
 }
 
@@ -116,8 +116,12 @@
     font-size: 22px;
     text-shadow: var(--text-shadow-yellow-hover);
     cursor: pointer;
-    margin-left: 2rem;
+    margin-left: 1rem;
     transition: 1s;
+}
+
+.navbar-language {
+    font-size: 22px;
 }
 
 .navbar-menu_container {
@@ -174,7 +178,7 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
     .navbar-right {
         display: none;
@@ -185,4 +189,3 @@
         align-items: center;
     }
 }
-

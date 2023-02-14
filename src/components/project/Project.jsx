@@ -1,13 +1,17 @@
 import React from 'react';
 import './project.css';
 
+import { useTranslation } from 'react-i18next';
+
 import img1 from '../../assets/project1.png'
 
 const Project = () => {
 
+  const { t } = useTranslation();
+
   return (   
    
-   <a href= "https://github.com/Simonn591/Band-page" target='_blank' rel="noreferrer">
+   <a href= "https://github.com/Simonn591/Band-page" target='_blank' rel="noopener noreferrer">
     
     <div className='project-all'>
   
@@ -15,10 +19,10 @@ const Project = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>Rock band's website</p>
+            <p>{ t('projecttitle') }</p>
           </span>
           <span className='project-desc'>
-            <p>A React app consinsting of multiple pages.</p>
+            <p>{ t('projectdesc') }</p>
           </span>
           <span className='project-tools'>
             <p>React, SCSS</p>

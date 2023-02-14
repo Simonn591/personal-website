@@ -51,6 +51,14 @@
                                 0 0 20px #D3BE70,
                                 0 0 40px #D3BE70,
                                 0 0 100px #D3BE70;
+    
+    --text-shadow-purple:   0 0 0 transparent,
+                            0 0 10px #50303f;
+    --text-shadow-purple-hover: 0 0 0 transparent,
+                                0 0 10px #50303f,
+                                0 0 20px #50303f,
+                                0 0 40px #50303f,
+                                0 0 100px #50303f;
 
     --hide-sun: none;
 

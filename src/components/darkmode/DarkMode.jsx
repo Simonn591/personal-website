@@ -1,6 +1,8 @@
 import React from 'react';
 import './darkmode.css';
 
+/* eslint-disable jsx-a11y/accessible-emoji */
+
 const setDark = () => {
     localStorage.setItem('theme', 'dark');
     document.documentElement.setAttribute('data-theme', 'dark');

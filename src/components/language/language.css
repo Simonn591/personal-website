@@ -1,0 +1,36 @@
+.language-cz {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    text-shadow: var(--text-shadow-purple);
+    transition-delay: var(--transition-delay);
+    cursor: pointer;
+}
+
+.language-en {
+    text-shadow: var(--text-shadow-purple);
+    transition-delay: var(--transition-delay);
+    cursor: pointer;
+}
+
+.language-cz:hover {
+    text-shadow: var(--text-shadow-purple-hover);
+    transition-delay: var(--transition-delay);
+    transition: 1s;
+}
+
+.language-en:hover {
+    text-shadow: var(--text-shadow-purple-hover);
+    transition-delay: var(--transition-delay);
+    transition: 1s;
+}
+
+@media screen and (max-width: 400px) {
+
+    .container {
+        display: grid;
+    }
+    
+    .language-en {
+        margin-left: 2rem;
+    }
+}

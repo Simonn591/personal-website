@@ -1,0 +1,49 @@
+{
+    "contact": "Contact",
+    "skills": "Skills",
+    "projects": "Projects",
+    "cv": "CV",
+
+    "home1": "Hello,",
+    "home2": "my name is",
+    "home3": "I'm a junior front-end web developer with four years of experience in testing and data analysis.",
+
+    "projects1": "Web development",
+    "projects2": "Others",
+
+    "projecttitle": "Rock band's website",
+    "projectdesc": "A React app consinsting of multiple pages.",
+    "project2title": "Social network for musicians",
+    "project2desc": "My bachelor thesis. A user interface specification of a web app specialized for organizing concerts.",
+    "project3title": "3D portfolio",
+    "project3desc": "I'm also interested in 3D graphics, so here are some of my renders.",
+    "project4title": "Sborio.cz",
+    "project4desc": "Some front-end enhancements of the project I'm currently participating in.",
+
+    "cv1": "Experience",
+    "cv2": "Education",
+
+    "cv3": "2022 - present",
+    "cv4": "Front-end web development of information system.",
+    "cv5": "UX and UI design of new functionalities.",
+
+    "cv6": "IT analyst",
+    "cv7": "User support of the banking application specialized for collections administration.",
+    "cv8": "Testing (execution and writing of test scenarios).",
+    "cv9": "Analysis and implementation of business requirements.",
+
+    "cv10": "IT support",
+    "cv11": "Development and maintenance support of a bank server.",
+
+    "cv12": "Czech University of Life Sciences Prague",
+    "cv13": "Informatics (bachelor's degree)",
+
+    "cv14": "2012 - 2013 (unfinished)",
+    "cv15": "Informatics",
+
+    "cv16": "Aircraft mechanics - electronics",
+
+    "footer": "Back to top",
+    "footer2": "Built with React"
+
+}

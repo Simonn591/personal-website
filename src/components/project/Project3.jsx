@@ -1,13 +1,15 @@
 import React from 'react';
 import './project.css';
-
-import img3 from '../../assets/project3.png'
+import img3 from '../../assets/project3.png';
+import { useTranslation } from 'react-i18next';
 
 const Project3 = () => {
 
+  const { t } = useTranslation();
+
   return (   
    
-   <a href= "https://www.deviantart.com/simonn91" target='_blank' rel="noreferrer">
+   <a href= "https://www.deviantart.com/simonn91" target='_blank' rel="noopener noreferrer">
     
     <div className='project-all'>
   
@@ -15,10 +17,10 @@ const Project3 = () => {
         
         <div className='project-text'>
           <span className='project-title'>
-            <p>3D portfolio</p>
+            <p>{ t('project3title') }</p>
           </span>
           <span className='project-desc'>
-            <p>I'm also interested in 3D graphics, so here are some of my renders.</p>
+            <p>{ t('project3desc') }</p>
           </span>
           <span className='project-tools'>
             <p>Blender</p>

@@ -1,19 +1,14 @@
 import React, { useState } from 'react';
 import DarkMode from '../darkmode/DarkMode';
+import Language from '../language/Language';
 import './navbar.css';
+import { useTranslation } from 'react-i18next';
 
-const Menu = () => (
-  <>
-  <p><a href = '#contact'>Contact</a></p>
-  <p><a href = '#skills'>Skills</a></p>
-  <p><a href = '#projects'>Projects</a></p>
-  <p><a href = '#cv'>CV</a></p>
-  </>
-)
 
 const Navbar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
+  const { t } = useTranslation();
   
   return (
     <div className='navbar-all' id='navbar'>
@@ -22,7 +17,12 @@ const Navbar = () => {
           <h1>&lt;Š /&gt;</h1>
         </div>
         <div className='navbar-right'>
-          <Menu />
+        <>
+          <p><a href = '#contact'>{ t('contact') }</a></p>
+          <p><a href = '#skills'>{ t('skills') }</a></p>
+          <p><a href = '#projects'>{ t('projects') }</a></p>
+          <p><a href = '#cv'>{ t('cv') }</a></p>
+        </>
         </div>
 
         <div className='navbar-menu'>
@@ -33,15 +33,25 @@ const Navbar = () => {
           {toggleMenu && (
             <div className='navbar-menu_container swing-in-top-fwd'>
               <div className='navbar-menu_container-links'>
-                <Menu />
+              <>
+                <p><a href = '#contact'>{ t('contact') }</a></p>
+                <p><a href = '#skills'>{ t('skills') }</a></p>
+                <p><a href = '#projects'>{ t('projects') }</a></p>
+                <p><a href = '#cv'>{ t('cv') }</a></p>
+              </>
               </div>
             </div>
           )}
         </div>
 
+        <div className='navbar-language'>
+          <Language />
+        </div>
+
         <div className='navbar-darkmode'>
           <DarkMode />
         </div>
+        
       </div>
     </div>
   )

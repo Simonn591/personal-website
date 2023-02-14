@@ -13,7 +13,7 @@ const Links = () => {
           </a>
         </div>
         <div className='links-linkedin'>
-          <a href='https://www.linkedin.com/in/%C5%A1imon-marchal-441690144' target='_blank' rel="noreferrer">
+          <a href='https://www.linkedin.com/in/%C5%A1imon-marchal-441690144' target='_blank' rel="noopener noreferrer">
             <img className='links-linkedin-dark' src={linkedin_dark} alt="linkedin"/>
             <img className='links-linkedin-light' src={linkedin_light} alt="linkedin"/>
           </a>

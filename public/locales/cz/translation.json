@@ -1,0 +1,49 @@
+{
+    "contact": "Kontakt",
+    "skills": "Dovednosti",
+    "projects": "Projekty",
+    "cv": "CV",
+
+    "home1": "Dobrý den,",
+    "home2": "jmenuji se",
+    "home3": "Jsem junior front-end web developer se čtyřletou praxí v testingu a datové analýze.",
+
+    "projects1": "Vývoj webu",
+    "projects2": "Ostatní",
+
+    "projecttitle": "Stránky kapely",
+    "projectdesc": "Vícestránková React aplikace.",
+    "project2title": "Sociální síť pro muzikanty",
+    "project2desc": "Moje bakalářská práce. UI specifikace webové aplikace zaměřené na pořádání koncertů.",
+    "project3title": "3D portfolio",
+    "project3desc": "Také mě zajímá 3D grafika.",
+    "project4title": "Sborio.cz",
+    "project4desc": "Některé úpravy a nové funkce front-endu pro projekt, kterého se účastním.",
+
+    "cv1": "Praxe",
+    "cv2": "Vzdělání",
+
+    "cv3": "2022 - dosud",
+    "cv4": "Vývoj front-endu webového informačního systému.",
+    "cv5": "UX a UI design nových funkčností.",
+
+    "cv6": "IT analytik",
+    "cv7": "Zajištění podpory uživatelů aplikací Tallyman a PowerCurve Collections v rámci banky.",
+    "cv8": "Manuální testování (evidence a tvorba scénářů v HP ALM a Xray).",
+    "cv9": "Analýza a implementace funkčních požadavků dle business zadání.",
+
+    "cv10": "IT podpora",
+    "cv11": "Podpora při vývoji a údržbě bankovního serveru.",
+
+    "cv12": "Česká zemědělská univerzita v Praze",
+    "cv13": "Informatika (Bc.)",
+
+    "cv14": "2012 - 2013 (nedokončeno)",
+    "cv15": "Informatika",
+
+    "cv16": "Letecký mechanik - elektronik",
+
+    "footer": "Nahoru",
+    "footer2": "Vytvořeno s React"
+
+}
