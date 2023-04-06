@@ -22,7 +22,7 @@ const Project = () => {
             <p>Stránky kapely</p>
           </span>
           <span className='project-desc'>
-            <p>Vícestránková React aplikace.</p>
+            <p>Zdrojový kód React aplikace, která bude sloužit jako webové stránky kapely.</p>
           </span>
           <span className='project-tools'>
             <p>React, SCSS</p>

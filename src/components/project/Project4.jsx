@@ -20,7 +20,7 @@ const Project4 = () => {
             <p>Sborio.cz</p>
           </span>
           <span className='project-desc'>
-            <p>Některé úpravy a nové funkce front-endu pro projekt, kterého se účastním.</p>
+            <p>Některé úpravy a nové funkce front-endu projektu, se kterým ve volném čase pomáhám.</p>
           </span>
           <span className='project-tools'>
             <p>Figma, Bootstrap, CSS</p>
