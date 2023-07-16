@@ -1,9 +1,9 @@
-import React, { FC,Suspense } from 'react';
+import React, { Suspense } from 'react';
 import { Navbar, Home, Links, Skills, Projects, CV, Footer } from './components';
 import './App.css';
 import './i18n'
 
-const App : FC = () => {
+const App = () => {
 
   return (
       <div className='app-all'>

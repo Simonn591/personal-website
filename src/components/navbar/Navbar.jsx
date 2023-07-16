@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
   const { t } = useTranslation();
+  const a = null
   
   return (
     <div className='navbar-all' id='navbar'>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./links.css";
-import {mail_dark, linkedin_dark, mail_light, linkedin_light} from "./imports";
+import {mail_dark, linkedin_dark, mail_light, linkedin_light, git_dark, git_light} from "./imports";
 
 const Links = () => {
   return (
@@ -18,12 +18,12 @@ const Links = () => {
             <img className='links-linkedin-light' src={linkedin_light} alt="linkedin"/>
           </a>
         </div>
-        {/*<div className='links-git'>
-          <a href='https://github.com/Simonn591' target='_blank' rel="noreferrer">
+        <div className='links-git'>
+          <a href='https://github.com/Simonn591' target='_blank' rel="noopener noreferrer">
             <img className='links-git-dark' src={git_dark} alt="git"/>
             <img className='links-git-light' src={git_light} alt="git"/>
           </a>
-        </div>*/}
+        </div>
       </div>
     </div>
   )
