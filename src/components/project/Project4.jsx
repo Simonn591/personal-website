@@ -1,11 +1,8 @@
 import React from 'react';
 import './project.css';
 import img4 from '../../assets/project4.png';
-import { useTranslation } from 'react-i18next';
 
 const Project4 = () => {
-
-  const { t } = useTranslation();
 
   return (   
    

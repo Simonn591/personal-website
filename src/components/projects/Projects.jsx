@@ -6,11 +6,9 @@ import Project3 from '../project/Project3';
 import Project4 from '../project/Project4';
 import './projects.css';
 
-import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
 
-  const { t } = useTranslation();
   return (
     <div className='projects-all' id='projects'>
       <div className='projects-container'>

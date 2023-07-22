@@ -1,3 +1,5 @@
+/* TODO CZ/EN switch */
+
 import React from 'react';
 import './language.css';
 import i18next from 'i18next';

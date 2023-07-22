@@ -1,13 +1,10 @@
 import React from 'react';
 import profile_pic from '../../assets/Profile-pic.png'
 import './home.css';
-import { useTranslation } from 'react-i18next';
 
 /* eslint-disable jsx-a11y/accessible-emoji */
 
 const Home = () => {
-  
-  const { t } = useTranslation();
   
   return (
     <div className='home-all'>

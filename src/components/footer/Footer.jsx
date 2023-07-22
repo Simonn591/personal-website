@@ -1,13 +1,7 @@
 import React from 'react';
 import './footer.css';
 
-import { useTranslation } from 'react-i18next';
-
-
-
 const Footer = () => {
-
-    const { t } = useTranslation();
   
     return (
     <div className='footer-all'>

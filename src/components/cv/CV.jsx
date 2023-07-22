@@ -1,10 +1,7 @@
 import React from 'react';
 import './cv.css';
-import { useTranslation } from 'react-i18next';
 
 const CV = () => {
-
-  const { t } = useTranslation();
 
   return (
     <div className='cv-all' id='cv'>

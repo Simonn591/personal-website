@@ -2,13 +2,10 @@ import React, { useState } from 'react';
 import DarkMode from '../darkmode/DarkMode';
 import Language from '../language/Language';
 import './navbar.css';
-import { useTranslation } from 'react-i18next';
-
 
 const Navbar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
-  const { t } = useTranslation();
   const a = null
   
   return (

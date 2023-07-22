@@ -1,9 +1,8 @@
 import React from 'react';
 import './skills.css';
-import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
-  const { t } = useTranslation();
+
   return (
     <div className='skills-all' id='skills'>
     <div className='skills-container'>
