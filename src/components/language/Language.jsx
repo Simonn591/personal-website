@@ -4,7 +4,7 @@ import React from 'react';
 import './language.css';
 import i18next from 'i18next';
 
-/* eslint-disable jsx-a11y/accessible-emoji */
+// eslint-disable jsx-a11y/accessible-emoji
 
 const Language = () => {
   return (

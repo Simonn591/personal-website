@@ -2,7 +2,7 @@ import React from 'react';
 import profilePic from '../../assets/Profile-pic.png';
 import './home.css';
 
-/* eslint-disable jsx-a11y/accessible-emoji */
+// eslint-disable jsx-a11y/accessible-emoji
 
 const Home = () => {
   return (
