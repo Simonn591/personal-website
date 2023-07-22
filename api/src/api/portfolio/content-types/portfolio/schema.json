@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home": {
+      "displayName": "home",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home"
+    },
+    "navbar": {
+      "displayName": "navbar",
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.navbar"
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": false,
+      "component": "skills.skills"
+    }
+  }
+}
