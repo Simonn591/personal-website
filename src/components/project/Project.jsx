@@ -1,34 +1,35 @@
 import React from 'react';
 import './project.css';
 
-
-import img1 from '../../assets/project1.png'
+import img1 from '../../assets/project1.png';
 
 const Project = () => {
+  return (
+    <a
+      href="https://github.com/Simonn591/Band-page"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="project-all">
+        <img src={img1} className="project-img" alt="img1" />
 
-  return (   
-   
-   <a href= "https://github.com/Simonn591/Band-page" target='_blank' rel="noopener noreferrer">
-    
-    <div className='project-all'>
-  
-        <img src= { img1 } className='project-img' alt='img1'/>
-        
-        <div className='project-text'>
-          <span className='project-title'>
+        <div className="project-text">
+          <span className="project-title">
             <p>Stránky kapely</p>
           </span>
-          <span className='project-desc'>
-            <p>Zdrojový kód React aplikace, která bude sloužit jako webové stránky kapely.</p>
+          <span className="project-desc">
+            <p>
+              Zdrojový kód React aplikace, která bude sloužit jako webové
+              stránky kapely.
+            </p>
           </span>
-          <span className='project-tools'>
+          <span className="project-tools">
             <p>React, SCSS</p>
           </span>
         </div>
-    </div>
+      </div>
     </a>
-  )
+  );
+};
 
-}
-
-export default Project
+export default Project;
