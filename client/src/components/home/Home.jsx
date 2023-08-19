@@ -6,13 +6,17 @@ import ReactMarkdown from 'react-markdown';
 /* eslint-disable react/prop-types */
 
 const Home = ({ item }) => {
-  console.log(item);
-
   return (
     <div className="home-all">
       <div className="home-container">
         <div className="home-img">
-          <img src={item.attributes.homeImg} alt="profile-pic" />
+          <img
+            src={
+              process.env.REACT_APP_UPLOAD_URL +
+              item.attributes.homeImg.data.attributes.url
+            }
+            alt="profile-pic"
+          />
         </div>
         <div className="home-text">
           <h1>

@@ -1,24 +1,19 @@
 import React from 'react';
 import './skills.css';
 
-const Skills = () => {
+/* eslint-disable react/prop-types */
+
+const Skills = ({ item }) => {
   return (
     <div className="skills-all" id="skills">
       <div className="skills-container">
         <div className="skills-title">
-          <h1>Dovednosti</h1>
+          <h1>{item.attributes.skillsHeader}</h1>
         </div>
         <div className="skills-skills">
-          <div className="skills-skills-1">
-            HTML, CSS, JavaScript, React, TailwindCSS, Bootstrap, SCSS, Oracle
-            SQL
-          </div>
-          <div className="skills-skills-2">
-            Figma, Adobe Photoshop, Gimp, Adobe Illustrator, Blender
-          </div>
-          <div className="skills-skills-3">
-            Confluence, JIRA, HP ALM, Git, Trello, Teams
-          </div>
+          <div className="skills-skills-1">{item.attributes.skillsText1}</div>
+          <div className="skills-skills-2">{item.attributes.skillsText2}</div>
+          <div className="skills-skills-3">{item.attributes.skillsText3}</div>
         </div>
       </div>
     </div>

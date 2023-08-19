@@ -18,7 +18,7 @@ const App = () => {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          process.env.REACT_APP_API_URL + '/portfolios',
+          process.env.REACT_APP_API_URL + '/portfolios?populate=*',
           {
             headers: {
               authorization: 'Bearer ' + process.env.REACT_APP_API_TOKEN,
@@ -40,10 +40,10 @@ const App = () => {
           <div key={item.id}>
             <Navbar item={item} />
             <Home item={item} />
+            <Links item={item} />
+            <Skills item={item} />
           </div>
         ))}
-        <Links />
-        <Skills />
         <Projects />
         <CV />
         <Footer />

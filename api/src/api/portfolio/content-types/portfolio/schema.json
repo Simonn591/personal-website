@@ -40,14 +40,101 @@
       "type": "richtext"
     },
     "homeImg": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkImg1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkImg2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkImg3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "skillsHeader": {
+      "type": "string"
+    },
+    "skillsText1": {
+      "type": "text"
+    },
+    "skillsText2": {
+      "type": "text"
+    },
+    "skillsText3": {
+      "type": "text"
+    },
+    "linkImgDark1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkImgDark2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkImgDark3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "projectsHeader": {
+      "type": "string"
+    },
+    "project1header": {
+      "type": "string"
+    },
+    "project1desc": {
+      "type": "string"
+    },
+    "project1stack": {
+      "type": "string"
+    },
+    "project1img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link1": {
+      "type": "string"
+    },
+    "link2": {
+      "type": "string"
+    },
+    "link3": {
+      "type": "string"
     }
   }
 }
