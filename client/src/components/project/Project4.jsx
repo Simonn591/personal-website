@@ -1,29 +1,34 @@
 import React from 'react';
 import './project.css';
-import img4 from '../../assets/project4.png';
 
-const Project4 = () => {
+/* eslint-disable react/prop-types */
+
+const Project4 = ({ item }) => {
   return (
     <a
-      href="https://www.figma.com/file/oHgbbYkFMJ7k9nJDMd3uwu/Sborio.cz-FE-enhancements?node-id=0%3A1&t=Bxwfcq1Ot7pOO5gP-0"
+      href={item.attributes.project4link}
       target="_blank"
       rel="noopener noreferrer"
     >
       <div className="project-all">
-        <img src={img4} className="project-img" alt="img4" />
+        <img
+          src={
+            process.env.REACT_APP_UPLOAD_URL +
+            item.attributes.project4img.data.attributes.url
+          }
+          className="project-img"
+          alt="img4"
+        />
 
         <div className="project-text">
           <span className="project-title">
-            <p>Sborio.cz</p>
+            <p>{item.attributes.project4header}</p>
           </span>
           <span className="project-desc">
-            <p>
-              Některé úpravy a nové funkce front-endu projektu, se kterým ve
-              volném čase pomáhám.
-            </p>
+            <p>{item.attributes.project4desc}</p>
           </span>
           <span className="project-tools">
-            <p>Figma, Bootstrap, CSS</p>
+            <p>{item.attributes.project4stack}</p>
           </span>
         </div>
       </div>

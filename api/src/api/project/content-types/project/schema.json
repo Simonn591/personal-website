@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project1header": {
+      "type": "string"
+    },
+    "project1desc": {
+      "type": "string"
+    },
+    "project1stack": {
+      "type": "string"
+    },
+    "project1img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "project2header": {
+      "type": "string"
+    },
+    "project2desc": {
+      "type": "string"
+    },
+    "project2stack": {
+      "type": "string"
+    },
+    "project2img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "project3header": {
+      "type": "string"
+    },
+    "project3desc": {
+      "type": "string"
+    },
+    "project3stack": {
+      "type": "string"
+    },
+    "project3img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "project4header": {
+      "type": "string"
+    },
+    "project4desc": {
+      "type": "string"
+    },
+    "project4stack": {
+      "type": "string"
+    },
+    "project4img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "project1link": {
+      "type": "string"
+    },
+    "project2link": {
+      "type": "string"
+    },
+    "project3link": {
+      "type": "string"
+    },
+    "project4link": {
+      "type": "string"
+    }
+  }
+}

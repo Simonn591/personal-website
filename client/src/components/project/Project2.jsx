@@ -2,7 +2,9 @@ import React from 'react';
 import './project.css';
 import img2 from '../../assets/project2.png';
 
-const Project2 = () => {
+/* eslint-disable react/prop-types */
+
+const Project2 = ({ item }) => {
   return (
     <a
       href="https://is.czu.cz/zp/index.pl?podrobnosti_zp=217230;zpet=;prehled=vyhledavani;vzorek_zp=marchal;dohledat=Dohledat;kde=nazev;kde=autor;kde=klic_slova;stav_filtr=bez;typ=1;typ=2;typ=3;typ=101;typ=8;typ=7;fakulta=20;fakulta=41;fakulta=40;fakulta=71;fakulta=50;fakulta=73;fakulta=72;fakulta=10;fakulta=30;obhajoba=2018;jazyk=1;jazyk=3;jazyk=2;jazyk=-1"

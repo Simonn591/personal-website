@@ -42,9 +42,9 @@ const App = () => {
             <Home item={item} />
             <Links item={item} />
             <Skills item={item} />
+            <Projects item={item} />
           </div>
         ))}
-        <Projects />
         <CV />
         <Footer />
       </Suspense>
