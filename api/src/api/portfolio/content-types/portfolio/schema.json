@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "portfolios",
   "info": {
     "singularName": "portfolio",
@@ -12,23 +12,42 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "home": {
-      "displayName": "home",
-      "type": "component",
-      "repeatable": false,
-      "component": "home.home"
+    "logo": {
+      "type": "string"
     },
-    "navbar": {
-      "displayName": "navbar",
-      "type": "component",
-      "repeatable": false,
-      "component": "navbar.navbar"
+    "navbar1": {
+      "type": "string"
     },
-    "skills": {
-      "displayName": "skills",
-      "type": "component",
-      "repeatable": false,
-      "component": "skills.skills"
+    "navbar2": {
+      "type": "string"
+    },
+    "navbar3": {
+      "type": "string"
+    },
+    "navbar4": {
+      "type": "string"
+    },
+    "homeHeader1": {
+      "type": "string"
+    },
+    "homeHeader2": {
+      "type": "string"
+    },
+    "homeHeader3": {
+      "type": "string"
+    },
+    "homeDesc": {
+      "type": "richtext"
+    },
+    "homeImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

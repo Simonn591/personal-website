@@ -1,44 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import profilePic from '../../assets/Profile-pic.png';
+import React from 'react';
 import './home.css';
-import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
 
 // eslint-disable jsx-a11y/accessible-emoji
+/* eslint-disable react/prop-types */
 
-const Home = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    // Define the API endpoint URL from where you want to fetch data
-    const apiUrl = process.env.REACT_APP_API_URL + '/portfolio'; // Replace with your Strapi API endpoint
-    console.log(apiUrl);
-    // Fetch data using axios
-    axios
-      .get(apiUrl)
-      .then(response => {
-        setData(response.data);
-        console.log(data.home);
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+const Home = ({ item }) => {
+  console.log(item);
 
   return (
     <div className="home-all">
       <div className="home-container">
         <div className="home-img">
-          <img src={profilePic} alt="profile-pic" />
+          <img src={item.attributes.homeImg} alt="profile-pic" />
         </div>
         <div className="home-text">
           <h1>
-            Dobrý den,<span className="home-hand wave">👋</span> jmenuji se{' '}
-            <span className="home-name">Šimon Marchal.</span>
+            {item.attributes.homeHeader1}
+            <span className="home-hand wave">👋</span>{' '}
+            {item.attributes.homeHeader2}
+            <br />
+            <span className="home-name">{item.attributes.homeHeader3}</span>
           </h1>
-          <h1></h1>
           <h3>
-            Jsem junior front-end web developer se čtyřletou praxí v testingu a
-            datové analýze.
+            <ReactMarkdown>{item.attributes.homeDesc}</ReactMarkdown>
           </h3>
         </div>
       </div>

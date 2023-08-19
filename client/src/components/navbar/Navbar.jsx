@@ -3,28 +3,30 @@ import DarkMode from '../darkmode/DarkMode';
 import Language from '../language/Language';
 import './navbar.css';
 
-const Navbar = () => {
+/* eslint-disable react/prop-types */
+
+const Navbar = ({ item }) => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className="navbar-all" id="navbar">
       <div className="navbar-container">
         <div className="navbar-title">
-          <h1>&lt;Š /&gt;</h1>
+          <h1>{item.attributes.logo}</h1>
         </div>
         <div className="navbar-right">
           <>
             <p>
-              <a href="#contact">Kontakt</a>
+              <a href="#contact">{item.attributes.navbar1}</a>
             </p>
             <p>
-              <a href="#skills">Dovednosti</a>
+              <a href="#skills">{item.attributes.navbar2}</a>
             </p>
             <p>
-              <a href="#projects">Projekty</a>
+              <a href="#projects">{item.attributes.navbar3}</a>
             </p>
             <p>
-              <a href="#cv">CV</a>
+              <a href="#cv">{item.attributes.navbar4}</a>
             </p>
           </>
         </div>
@@ -50,16 +52,16 @@ const Navbar = () => {
               <div className="navbar-menu_container-links">
                 <>
                   <p>
-                    <a href="#contact">Kontakt</a>
+                    <a href="#contact">{item.attributes.navbar1}</a>
                   </p>
                   <p>
-                    <a href="#skills">Dovednosti</a>
+                    <a href="#skills">{item.attributes.navbar2}</a>
                   </p>
                   <p>
-                    <a href="#projects">Projekty</a>
+                    <a href="#projects">{item.attributes.navbar3}</a>
                   </p>
                   <p>
-                    <a href="#cv">CV</a>
+                    <a href="#cv">{item.attributes.navbar4}</a>
                   </p>
                 </>
               </div>
