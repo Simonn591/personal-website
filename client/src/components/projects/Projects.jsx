@@ -53,14 +53,22 @@ const Projects = ({ item }) => {
         <div className="projects-title-2">
           <h3>{item.attributes.projectsSubheader2}</h3>
         </div>
-        <div className="projects-project" key={item.id}>
-          <Project2 item={item} />
+        <div className="projects-project">
+          {data.map(item => (
+            <React.Fragment key={item.id}>
+              <Project2 item={item} />
+            </React.Fragment>
+          ))}
         </div>
         <div className="projects-title-2">
           <h3>{item.attributes.projectsSubheader3}</h3>
         </div>
         <div className="projects-project">
-          <Project3 />
+          {data.map(item => (
+            <React.Fragment key={item.id}>
+              <Project3 item={item} />
+            </React.Fragment>
+          ))}
         </div>
       </div>
     </div>

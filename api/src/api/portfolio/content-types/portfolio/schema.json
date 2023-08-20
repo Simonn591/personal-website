@@ -74,15 +74,6 @@
     "skillsHeader": {
       "type": "string"
     },
-    "skillsText1": {
-      "type": "text"
-    },
-    "skillsText2": {
-      "type": "text"
-    },
-    "skillsText3": {
-      "type": "text"
-    },
     "linkImgDark1": {
       "type": "media",
       "multiple": false,
@@ -127,6 +118,15 @@
     },
     "projectsSubheader3": {
       "type": "string"
+    },
+    "skillsText1": {
+      "type": "richtext"
+    },
+    "skillsText2": {
+      "type": "richtext"
+    },
+    "skillsText3": {
+      "type": "richtext"
     }
   }
 }
