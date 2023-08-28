@@ -10,7 +10,7 @@ const Experience = ({ item }) => {
       </div>
       <section className="cv-timeline">
         <div className="cv-position">
-          <h3>Front-end web developer & UX designer</h3>
+          <h3>{item.attributes.header}</h3>
           <h4>Sborio.cz</h4>
           <h5>2022 - dosud</h5>
           <p>Vývoj front-endu webového informačního systému.</p>

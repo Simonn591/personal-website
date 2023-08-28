@@ -37,8 +37,12 @@ const CV = ({ item }) => {
           <h1>CV</h1>
         </div>
         <div className="cv-grid">
-          <Experience />
-          <Education />
+          {data.map(item => (
+            <React.Fragment key={item.id}>
+              <Experience item={item} />
+              <Education item={item} />
+            </React.Fragment>
+          ))}
         </div>
       </div>
     </div>

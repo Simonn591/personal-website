@@ -43,9 +43,9 @@ const App = () => {
             <Links item={item} />
             <Skills item={item} />
             <Projects item={item} />
+            <CV item={item} />
           </div>
         ))}
-        <CV />
         <Footer />
       </Suspense>
     </div>
