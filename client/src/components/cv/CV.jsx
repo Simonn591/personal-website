@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './cv.css';
 import axios from 'axios';
-import Experience from '../experience/experience';
-import Education from '../education/education';
+import Experience from './experience';
+import Education from './education';
 
 /* eslint-disable react/prop-types */
 
