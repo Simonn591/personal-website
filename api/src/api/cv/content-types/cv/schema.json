@@ -4,15 +4,61 @@
   "info": {
     "singularName": "cv",
     "pluralName": "cvs",
-    "displayName": "cv"
+    "displayName": "cv",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "header": {
+    "headerJobs": {
       "type": "string"
+    },
+    "jobName1": {
+      "type": "string"
+    },
+    "jobDesc1": {
+      "type": "richtext"
+    },
+    "jobName2": {
+      "type": "string"
+    },
+    "jobDesc2": {
+      "type": "richtext"
+    },
+    "jobName3": {
+      "type": "string"
+    },
+    "jobDesc3": {
+      "type": "richtext"
+    },
+    "jobName4": {
+      "type": "string"
+    },
+    "jobDesc4": {
+      "type": "richtext"
+    },
+    "headerEducation": {
+      "type": "string"
+    },
+    "educationName1": {
+      "type": "string"
+    },
+    "educationDesc1": {
+      "type": "richtext"
+    },
+    "educationName2": {
+      "type": "string"
+    },
+    "educationDesc2": {
+      "type": "richtext"
+    },
+    "educationName3": {
+      "type": "string"
+    },
+    "educationDesc3": {
+      "type": "richtext"
     }
   }
 }
