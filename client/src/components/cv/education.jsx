@@ -6,7 +6,7 @@ const Education = ({ item }) => {
   return (
     <div className="cv-education">
       <div className="cv-title-2">
-        <h3>Vzdělání</h3>
+        <h3>{item.attributes.headerEducation}</h3>
       </div>
       <section className="cv-timeline">
         <div className="cv-position">
