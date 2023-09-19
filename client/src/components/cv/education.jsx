@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 /* eslint-disable react/prop-types */
 
@@ -10,19 +11,22 @@ const Education = ({ item }) => {
       </div>
       <section className="cv-timeline">
         <div className="cv-position">
-          <h3>Česká zemědělská univerzita v Praze</h3>
-          <h5>2014 - 2018</h5>
-          <p>Informatika (Bc.)</p>
+          <h3>{item.attributes.educationName1}</h3>
+          <p>
+            <ReactMarkdown>{item.attributes.educationDesc1}</ReactMarkdown>
+          </p>
         </div>
         <div className="cv-position">
-          <h3>Unicorn College</h3>
-          <h5>2012 - 2013 (nedokončeno)</h5>
-          <p>Informatika</p>
+          <h3>{item.attributes.educationName2}</h3>
+          <p>
+            <ReactMarkdown>{item.attributes.educationDesc2}</ReactMarkdown>
+          </p>
         </div>
         <div className="cv-position">
-          <h3>SOŠ civilního letectví</h3>
-          <h5>2007 - 2011</h5>
-          <p>Letecký mechanik - elektronik</p>
+          <h3>{item.attributes.educationName3}</h3>
+          <p>
+            <ReactMarkdown>{item.attributes.educationDesc3}</ReactMarkdown>
+          </p>
         </div>
       </section>
     </div>
