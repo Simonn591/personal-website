@@ -44,9 +44,9 @@ const App = () => {
             <Skills item={item} />
             <Projects item={item} />
             <CV item={item} />
+            <Footer item={item} />
           </div>
         ))}
-        <Footer />
       </Suspense>
     </div>
   );

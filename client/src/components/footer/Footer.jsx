@@ -1,19 +1,24 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import './footer.css';
 
-const Footer = () => {
+/* eslint-disable react/prop-types */
+
+const Footer = ({ item }) => {
   return (
     <div className="footer-all">
       <div className="footer-container">
         <div className="footer-menu">
           <>
             <p>
-              <a href="#navbar">Nahoru &#8593;</a>
+              <a href="#navbar">
+                <ReactMarkdown>{item.attributes.footer1}</ReactMarkdown>
+              </a>
             </p>
           </>
         </div>
         <h3>
-          Vytvořeno s React<br></br>© 2022-2023
+          <ReactMarkdown>{item.attributes.footer2}</ReactMarkdown>
         </h3>
       </div>
     </div>
